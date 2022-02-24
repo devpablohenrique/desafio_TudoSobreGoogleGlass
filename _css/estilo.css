@@ -39,6 +39,7 @@ div#interface p {
     text-align: justify;
     text-indent: 50px;
     line-height: 1.5em;
+    margin: 10px 0px;
 }
 
 /* Formatação de cabeçalho*/
@@ -243,6 +244,20 @@ aside#lateral {
     padding: 10px;
     margin-top: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.503);
+}
+
+aside h1 {
+    font-family: var(--font1);
+    font-weight: normal;
+    font-size: 2.3em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.193);
+    color: var(--cor3);
+}
+
+aside h2 {
+    font-family: var(--font2);
+    font-size: 1.5em;
+    color: var(--cor2);
 }
 
 footer#rodape {
