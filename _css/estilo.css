@@ -52,14 +52,14 @@ header#cabecalho {
 
 header#cabecalho h1 {
     font-family: var(--font1);
-    font-size: 2.6em;
+    font-size: 2.3em;
     color: var(--cor3);
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.197);
 }
 
 header#cabecalho h2 {
     font-family: var(--font2);
-    color: var(--cor2);
+    color: var(--cor4);
     font-size: 1.2em;
 }
 
@@ -119,21 +119,21 @@ section#corpo {
 /* Configuração hgroup*/
 header#cabecalho-artigo h1 {
     font-family: var(--font1);
-    font-size: 2em;
+    font-size: 1.5em;
     color: var(--cor3);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.204);
 }
 
 header#cabecalho-artigo h2 {
-    font-size: 1.5em;
+    font-size: 1em;
     color: var(--cor1);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.204);
+    margin-left: 20px;
 }
 
 header#cabecalho-artigo h3 {
-    font-size: 1.2em;
+    font-size: .8em;
     color: var(--cor3);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.204);
+    margin: 10px 0px;
 }
 
 .direita {
@@ -142,10 +142,11 @@ header#cabecalho-artigo h3 {
 
 /* Configurações de artigo */
 
-article#noticia-principal h2 {
-    font-size: 1.5em;
+article#noticia-principal > h2 {
+    font-size: 1em;
     color: var(--cor3);
     padding: 5px 0px 5px 10px;
+    background-color: var(--cor0);
 }
 
 
@@ -249,15 +250,19 @@ aside#lateral {
 aside h1 {
     font-family: var(--font1);
     font-weight: normal;
-    font-size: 2.3em;
+    font-size: 1.7em;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.193);
     color: var(--cor3);
 }
 
 aside h2 {
     font-family: var(--font2);
-    font-size: 1.5em;
-    color: var(--cor2);
+    font-size: 1em;
+    font-weight: normal;
+    color: white;
+    background-color: var(--cor3);
+    padding: 3px;
+    margin-top: 10px;
 }
 
 footer#rodape {
